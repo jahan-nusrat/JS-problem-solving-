@@ -33,11 +33,10 @@ Expected output : GFEDCBA
 > Step 3. Move Pivot to the end of the array.
 
 > Step 4. Find the below items compared to the pivot.
-  <code>
-  * largerItemFromLeft -> A[l] //first item
-  * smallerItemFromRight -> A[s] //first item
-  </code>
-
+<pre>
+- largerItemFromLeft -> A[l] //first item
+- smallerItemFromRight -> A[s] //first item
+</pre>
 > Step 5. swap (l, s) IFF (l < s) // Remember this trick {indices}
 
 > Step 6. Repeat steps 4, 5 until l > s
