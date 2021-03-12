@@ -21,3 +21,29 @@ let reversedString = reverseString(string);
 console.log(reversedString);
 Expected output : GFEDCBA
 </pre>
+
+### 2. **How to implement QuickSort algorithm**
+
+<h3><u>Algorithm</u></h3>
+
+> Step 1: Pick a "pivot".
+
+> Step 2. Pivot [P] = median(first + mid + last);
+
+> Step 3. Move Pivot to the end of the array.
+
+> Step 4. Find the below items compared to the pivot.
+  <code>
+  * largerItemFromLeft -> A[l] //first item
+  * smallerItemFromRight -> A[s] //first item
+  </code>
+
+> Step 5. swap (l, s) IFF (l < s) // Remember this trick {indices}
+
+> Step 6. Repeat steps 4, 5 until l > s
+
+> Step 7. swap (p, l)
+
+> Step 7. Recrusively do this for larger and smaller partitions
+
+> Step 8. Exit recursion when partition has only 1 element.
