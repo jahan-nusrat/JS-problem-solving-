@@ -1,5 +1,4 @@
 ## PROBLEM SOLVING IN JAVASCRIPT
----
 ### 1. **Write a function to reverse a given string using a stack**
 
 <h3><u>Algorithm</u></h3>
@@ -16,11 +15,9 @@
 
 <em>Sample</em>
 
-<code>
 <pre>
 let inputString = "ABCDEFG";
 let reversedString = reverseString(string);
 console.log(reversedString);
 Expected output : GFEDCBA
 </pre>
-</code>
